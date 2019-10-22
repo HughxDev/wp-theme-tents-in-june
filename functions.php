@@ -32,4 +32,6 @@ require_once('library/theme-support.php');
 // Add Header image
 require_once('library/custom-header.php');
 
+require_once('library/custom-footer.php');
+
 ?>

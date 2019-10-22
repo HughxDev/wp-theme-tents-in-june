@@ -12,7 +12,8 @@ module.exports = function(grunt) {
 
       dist: {
         options: {
-          outputStyle: 'compressed'
+          outputStyle: 'expanded', //'compressed'
+          //lineNumbers: true
         },
         files: {
           'css/foundation.css': 'scss/foundation.scss'
